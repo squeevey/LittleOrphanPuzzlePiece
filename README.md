@@ -7,10 +7,15 @@ This code was spawned after redditor /u/podcastman raised the question - "What i
 -----------
 This is created using Processing 3.0.
 -----------
-I tested the puzzle idea using just a 10x10 grid. I got an average of 25 puzzle pieces removed before one was orphaned. 
+I tested the puzzle idea using just a 10x10 grid. 
+Average pieces removed before an orphan was created: 25.
+Here is a google doc with a graph: https://docs.google.com/spreadsheets/d/1CHpVmSuay0W67O7w7kf4d3MnI_aXrTP4-2Uq-YDtiPY/edit?usp=sharing
 
 Method: 
-• Create an adjancency list using an array and IntList to emulate the layout of a grid (like a chessboard or puzzle); diagonals do not count, in this case, as connect. 
+• Create an adjancency list using an array and IntList to emulate the layout of a grid (like a chessboard or puzzle); diagonals do not count, in this case, as connect.
+
 • Randomly select a piece and find out its neighbors. 
-• Go to those neighbors, and remove the piece from their list. 
+
+• Go to those neighbors, and remove the piece from their list.
+ 
 • Once a neighbor has an empty list - they are orphaned - and the simulation should stop.  

@@ -10,7 +10,6 @@ This is created using Processing 3.0.
 I tested the puzzle idea using just a 10x10 grid. 
 Average pieces removed before an orphan was created: 25.
 
-Here is a google doc with a graph: https://docs.google.com/spreadsheets/d/1CHpVmSuay0W67O7w7kf4d3MnI_aXrTP4-2Uq-YDtiPY/edit?usp=sharing
 
 Method: 
 
